@@ -8,7 +8,6 @@ const Navbar = () => {
 
   return (
     <div className="flex w-full py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoodBank" className="w-[124px] h-[32px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
